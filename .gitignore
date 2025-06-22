@@ -1,3 +1,4 @@
+# Laravel
 /.phpunit.cache
 /node_modules
 /public/build
@@ -9,6 +10,8 @@
 .env
 .env.backup
 .env.production
+.env.local
+.env.testing
 .phpactor.json
 .phpunit.result.cache
 Homestead.json
@@ -16,9 +19,44 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 /auth.json
+
+# IDEs
 /.fleet
 /.idea
 /.nova
 /.vscode
 /.zed
 /nbproject/private/
+
+# Sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs adicionales
+*.log
+storage/logs/*.log
+
+# Cache y archivos temporales
+bootstrap/cache/*.php
+storage/framework/cache/data/*
+storage/framework/sessions/*
+storage/framework/views/*
+
+# Archivos de configuración sensibles
+/config/database.php.backup
+/config/app.php.backup
+
+# Railway específico (opcional)
+railway.json.backup
+
+# Archivos de deployment
+deployment-config.json
+
+# Documentación autogenerada
+/docs/build/
+api-docs.json
